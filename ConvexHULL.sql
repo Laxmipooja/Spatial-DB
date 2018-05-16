@@ -1,0 +1,1 @@
+select ST_AsText(ST_ConvexHull(ST_Collect(location))) from HW_Location5;

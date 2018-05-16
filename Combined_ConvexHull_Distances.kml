@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0577767,37.3761758</coordinates></Point>
+</Placemark>
+<Placemark><name>Alliance</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0560201,37.3733596</coordinates></Point>
+</Placemark>
+<Placemark><name>CVS</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0542659,37.3739357</coordinates></Point>
+</Placemark>
+<Placemark><name>Madras Cafe</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0548861,37.3744214</coordinates></Point>
+</Placemark>
+<Placemark><name>Safe Way</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0581152,37.3727852</coordinates></Point>
+</Placemark>
+<Placemark><name>Satkar</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0580216,37.3753910</coordinates></Point>
+</Placemark>
+<Placemark><name>Chase</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0575110,37.3738219</coordinates></Point>
+</Placemark>
+<Placemark><name>Mc Donalds</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0547903,37.373748701</coordinates></Point>
+</Placemark>
+<Placemark><name>UPS Store</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-122.0524054,37.3738720</coordinates></Point>
+</Placemark>
+<Style id="polygon_style">
+    <PolyStyle>
+<color>7FAAAAAA</color>
+	   
+<color>7fffff00</color>
+      <colorMode>normal</colorMode>
+      <fill>1</fill>
+      <outline>1</outline>
+    </PolyStyle>
+  </Style>
+ <Placemark>
+    <styleUrl>#polygon_style</styleUrl>
+    <Polygon>
+      <altitudeMode>clampedToGround</altitudeMode>
+      <outerBoundaryIs>
+        <LinearRing>
+          <coordinates>
+           -122.0581152,37.3727852,
+-122.0580216,37.375391,
+-122.0577767,37.3761758,
+-122.0524054,37.373872,
+-122.0581152,37.3727852
+          </coordinates>
+        </LinearRing>
+      </outerBoundaryIs>
+      </Polygon>
+  </Placemark>
+<Placemark>     
+<extrude>1</extrude>
+      
+<altitudeMode>relativeToGround</altitudeMode>
+ 
+<LineString>
+ <coordinates>
+-122.0577767,37.3761758,
+-122.0580216,37.375391
+</coordinates>
+</LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff00ff00</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark>     
+<extrude>1</extrude>
+      
+<altitudeMode>relativeToGround</altitudeMode>
+ 
+<LineString>
+ <coordinates>
+-122.0577767,37.3761758,
+-122.057511,37.3738219
+</coordinates>
+</LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff00ff00</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+<Placemark>     
+<extrude>1</extrude>
+      
+<altitudeMode>relativeToGround</altitudeMode>
+ 
+<LineString>
+ <coordinates>
+-122.0577767,37.3761758,
+-122.0560201,37.3733596
+</coordinates>
+</LineString>
+ <Style> 
+  <LineStyle>  
+   <color>#ff00ff00</color>
+   <width>3</width>
+  </LineStyle> 
+ </Style>
+</Placemark>
+  </Document>
+</kml>

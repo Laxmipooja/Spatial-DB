@@ -1,0 +1,25 @@
+
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+
+class HelloWorld {
+	public static void main(String args[]) {
+		double R = 5.0;
+		double r = 1.0;
+		double a = 4.0;
+		double x1 = R + r - a;
+		double y1 = 0;
+
+		double pi = Math.PI;
+		
+		for(double t = 0.0; t < (pi*10); t+=0.01) {
+			double x = (R+r)*Math.cos((r/R)*t) - a*Math.cos((1+r/R)*t);
+			double y = (R+r)*Math.sin((r/R)*t) - a*Math.sin((1+r/R)*t);
+			double x3 = -118.2891515+x;
+			double y3 = 34.0212546+y;
+			System.out.print(x3+",");
+			System.out.println(y3+",");
+		}
+	}
+}

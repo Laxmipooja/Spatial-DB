@@ -1,0 +1,4 @@
+CREATE TABLE HW_Location5( Name VARCHAR(20),Category VARCHAR(20), Location geometry);
+
+
+ALTER TABLE HW_Location5 ADD COLUMN id SERIAL PRIMARY KEY;
